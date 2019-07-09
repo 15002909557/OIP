@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<tools-config>
+
+	<tools-interfaces>
+		<interface id="ITag" value="tools.interfaces.ITag">
+			<class>com.kingtake.common.util.imp.TagImp</class>
+			<memo>
+				系统对外接口
+			</memo>
+		</interface>    
+	</tools-interfaces>
+
+	<tools-othersconfig>
+		<pagerownum value="12">
+			<memo>
+				翻页条数
+			</memo>
+		</pagerownum>
+
+		<dialect value="oracle">
+			<memo>
+				系统使用的数据库，为sql查询时使用，如果是oracle数据库，则查询时使用oracle的ROWNUM翻页，否则使用移动指针的方式翻页
+			</memo>
+		</dialect>
+
+		<endflag value="Flag">
+			<memo>
+				hashtable放入ServletContext中的key,同时也是放入hashMap中信息的初始化标志的后缀名,
+				即每一个查询结果放入hashtable中的key为tablename + 这个key
+			</memo>
+		</endflag>
+
+		<isrefreshhashtableinitcontext value="false">
+			<memo>
+				HashtableTag标签的查询是否每次读取信息都需从数据库中查询,
+				false表示不用直接从数据库中查询，而是直接从内存获取上次查询过的数据,
+				true表示每次查询都是从数据库获取数据
+			</memo>  
+		</isrefreshhashtableinitcontext>
+		
+	</tools-othersconfig>
+
+</tools-config>

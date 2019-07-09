@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/LoginAction.do" location="50,50" dimension="370,84" />
+  <StrutsActivity path="/LogoutAction.do" location="650,50" dimension="376,84" />
+  <StrutsActivity path="/SysUserAction.do" location="1250,50" dimension="382,84" />
+  <StrutsActivity path="/AdministratorAction.do" location="1850,50" dimension="418,84" />
+  <StrutsActivity path="/DataCheckerAction.do" location="2450,50" dimension="412,84" />
+  <StrutsActivity path="/ProjectAction.do" location="50,250" dimension="388,84" />
+  <StrutsActivity path="/ReportAction.do" location="650,250" dimension="382,84" />
+  <StrutsActivity path="/POAction.do" location="1250,250" dimension="358,84" />
+  <StrutsActivity path="/InvoiceAction.do" location="1850,250" dimension="388,84" />
+  <StrutsActivity path="failed;6" location="1850,450" dimension="106,72" />
+  <StrutsActivity path="timeout;6" location="2150,450" dimension="118,72" />
+  <StrutsActivity path="/index.jsp" location="2450,450" dimension="100,48" />
+  <StrutsActivity path="/system/login.jsp" location="350,650" dimension="142,48" />
+  <StrutsActivity path="/system/administrator_01.jsp" location="650,650" dimension="208,48" />
+  <StrutsActivity path="/developer/developer_01.jsp" location="2450,550" dimension="202,48" />
+  <StrutsActivity path="/checker/data_checker_01.jsp" location="50,650" dimension="208,48" />
+  <StrutsActivity path="/system/oops.jsp" location="950,650" dimension="136,48" />
+  <StrutsActivity path="/system/register.jsp" location="1850,750" dimension="160,48" />
+  <StrutsActivity path="/system/administrator_03.jsp" location="1850,650" dimension="208,48" />
+  <StrutsActivity path="/checker/data_checker_04_newUser.jsp" location="1250,650" dimension="256,48" />
+  <StrutsActivity path="/system/administrator_03_edit.jsp" location="650,750" dimension="238,48" />
+  <StrutsActivity path="/system/administrator_03_edit_submit.jsp" location="50,750" dimension="280,48" />
+  <StrutsActivity path="/system/changePWD.jsp" location="1550,750" dimension="166,48" />
+  <StrutsActivity path="/system/register_submit.jsp" location="2150,650" dimension="202,48" />
+  <StrutsActivity path="/checker/data_checker_04_newUser_submit.jsp" location="950,750" dimension="298,48" />
+  <StrutsActivity path="/checker/data_checker_04_edit_User.jsp" location="2450,650" dimension="268,48" />
+  <StrutsActivity path="/system/administrator_02.jsp" location="1250,850" dimension="208,48" />
+  <StrutsActivity path="/system/administrator_04.jsp" location="650,850" dimension="208,48" />
+  <StrutsActivity path="/system/administrator_email.jsp" location="50,450" dimension="226,48" />
+  <StrutsActivity path="/system/administrator_02_03.jsp" location="2450,750" dimension="226,48" />
+  <StrutsActivity path="/system/administrator_02_04.jsp" location="350,850" dimension="226,48" />
+  <StrutsActivity path="/system/administrator_08.jsp" location="2150,750" dimension="208,48" />
+  <StrutsActivity path="/system/administrator_02_01.jsp" location="50,850" dimension="226,48" />
+  <StrutsActivity path="/system/administrator_02_02.jsp" location="950,850" dimension="226,48" />
+  <StrutsActivity path="/checker/data_checker_13_edit.jsp" location="350,950" dimension="238,48" />
+  <StrutsActivity path="/checker/data_checker_03_deleteproject.jsp" location="2450,1150" dimension="292,48" />
+  <StrutsActivity path="/checker/data_checker_03_submit.jsp" location="1850,850" dimension="250,48" />
+  <StrutsActivity path="/checker/data_checker_04_newGroup.jsp" location="50,1150" dimension="262,48" />
+  <StrutsActivity path="/checker/data_checker_13.jsp" location="950,950" dimension="208,48" />
+  <StrutsActivity path="/checker/data_checker_04_edit.jsp" location="50,1050" dimension="238,48" />
+  <StrutsActivity path="/checker/new_project_edit_submit.jsp" location="650,1050" dimension="256,48" />
+  <StrutsActivity path="/checker/data_checker_03_sub.jsp" location="1250,1150" dimension="232,48" />
+  <StrutsActivity path="/checker/data_checker_03_leave_submit.jsp" location="1850,1150" dimension="286,48" />
+  <StrutsActivity path="/checker/data_checker_04_updateGroup.jsp" location="950,550" dimension="280,48" />
+  <StrutsActivity path="/checker/data_checker_04_edit_Leave.jsp" location="650,1150" dimension="274,48" />
+  <StrutsActivity path="/checker/data_checker_03_details_submit.jsp" location="650,1250" dimension="298,48" />
+  <StrutsActivity path="/checker/data_checker_03_details.jsp" location="2450,1050" dimension="256,48" />
+  <StrutsActivity path="/checker/new_project_edit.jsp" location="2450,950" dimension="214,48" />
+  <StrutsActivity path="/checker/data_checker_03_edit2.jsp" location="50,950" dimension="244,48" />
+  <StrutsActivity path="/checker/data_checker_02.jsp" location="650,950" dimension="208,48" />
+  <StrutsActivity path="/checker/new_leave_edit.jsp" location="1250,950" dimension="202,48" />
+  <StrutsActivity path="/checker/data_checker_03_edit_submit.jsp" location="1550,950" dimension="280,48" />
+  <StrutsActivity path="/checker/data_checker_04.jsp" location="50,1250" dimension="208,48" />
+  <StrutsActivity path="/checker/data_checker_03.jsp" location="350,1050" dimension="208,48" />
+  <StrutsActivity path="/checker/data_checker_03_edit2_submit.jsp" location="2150,850" dimension="286,48" />
+  <StrutsActivity path="/checker/data_checker_03_edit.jsp" location="1550,850" dimension="238,48" />
+  <StrutsActivity path="/checker/data_checker_03_submit_all.jsp" location="1250,1050" dimension="274,48" />
+  <StrutsActivity path="/checker/new_leave_edit_submit.jsp" location="1550,1150" dimension="244,48" />
+  <StrutsActivity path="/checker/data_checker_03_leave.jsp" location="2150,950" dimension="244,48" />
+  <StrutsActivity path="/checker/data_checker_11.jsp" location="350,1250" dimension="208,48" />
+  <StrutsActivity path="/checker/data_checker_04_edit_Pro.jsp" location="1850,1050" dimension="262,48" />
+  <StrutsActivity path="/checker/data_checker_04_edit_uploaded_userlist.jsp" location="1850,1250" dimension="346,48" />
+  <StrutsActivity path="/checker/data_checker_04_edit_uploaded.jsp" location="1250,1250" dimension="292,48" />
+  <StrutsActivity path="/checker/data_checker_05_check.jsp" location="50,1350" dimension="244,48" />
+  <StrutsActivity path="/checker/data_checker_05.jsp" location="2450,1250" dimension="208,48" />
+  <StrutsActivity path="/checker/nonLaborCost_add_submit.jsp" location="350,1450" dimension="256,48" />
+  <StrutsActivity path="/checker/nonlaborCost_list.jsp" location="2150,1350" dimension="220,48" />
+  <StrutsActivity path="/checker/po_edit.jsp" location="1550,1350" dimension="160,48" />
+  <StrutsActivity path="/checker/po_add.jsp" location="350,1350" dimension="154,48" />
+  <StrutsActivity path="/checker/po_list.jsp" location="2450,1350" dimension="160,48" />
+  <StrutsActivity path="/checker/po_assignment.jsp" location="50,1450" dimension="196,48" />
+  <StrutsActivity path="/checker/nonLaborCost_add.jsp" location="1850,1350" dimension="214,48" />
+  <StrutsActivity path="/checker/data_checker_06_edit_case.jsp" location="950,1350" dimension="268,48" />
+  <StrutsActivity path="/checker/data_checker_06.jsp" location="950,1450" dimension="208,48" />
+  <StrutsActivity path="/checker/data_checker_06_edit.jsp" location="650,1350" dimension="238,48" />
+  <StrutsActivity path="/checker/Invoice_Edit.jsp" location="1550,1450" dimension="190,48" />
+  <StrutsActivity path="/checker/Invoice_List.jsp" location="1850,1450" dimension="190,48" />
+  <StrutsActivity path="/checker/Invoice_Edit_submit.jsp" location="1250,1450" dimension="232,48" />
+  <StrutsActivity path="/error.jsp" location="2150,1450" dimension="100,48" />
+  <StrutsActivity path="/relogon.jsp" location="2450,1450" dimension="112,48" />
+  <StrutsActivity path="/checker/data_checker_03_details2.jsp" />
+  <StrutsTransition id="/AdministratorAction.do,administrator_04,/system/administrator_04.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,108" />
+      <AbsolutePoint location="1827,108" />
+      <AbsolutePoint location="1827,945" />
+      <AbsolutePoint location="772,945" />
+      <AbsolutePoint location="772,898" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="failed;6,null,/error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1956,486" />
+      <AbsolutePoint location="2067,486" />
+      <AbsolutePoint location="2067,845" />
+      <AbsolutePoint location="2841,845" />
+      <AbsolutePoint location="2841,1446" />
+      <AbsolutePoint location="2200,1446" />
+      <AbsolutePoint location="2200,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ProjectAction.do,data_checker_04_edit_uploaded_userlist,/checker/data_checker_04_edit_uploaded_userlist.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,304" />
+      <AbsolutePoint location="-43,304" />
+      <AbsolutePoint location="-43,1335" />
+      <AbsolutePoint location="2023,1335" />
+      <AbsolutePoint location="2023,1298" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_03_edit,/checker/data_checker_03_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2634,134" />
+      <AbsolutePoint location="2634,179" />
+      <AbsolutePoint location="1731,179" />
+      <AbsolutePoint location="1731,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_03_leave_submit,/checker/data_checker_03_leave_submit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2710,134" />
+      <AbsolutePoint location="2710,247" />
+      <AbsolutePoint location="645,247" />
+      <AbsolutePoint location="645,1113" />
+      <AbsolutePoint location="1993,1113" />
+      <AbsolutePoint location="1993,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_02,/checker/data_checker_02.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2862,92" />
+      <AbsolutePoint location="2937,92" />
+      <AbsolutePoint location="2937,913" />
+      <AbsolutePoint location="754,913" />
+      <AbsolutePoint location="754,950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_04_edit,/checker/data_checker_04_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2566,50" />
+      <AbsolutePoint location="2566,35" />
+      <AbsolutePoint location="5,35" />
+      <AbsolutePoint location="5,1074" />
+      <AbsolutePoint location="50,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/LogoutAction.do,success,/system/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="838,92" />
+      <AbsolutePoint location="838,674" />
+      <AbsolutePoint location="421,674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,new_leave_edit,/checker/new_leave_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,60" />
+      <AbsolutePoint location="2313,60" />
+      <AbsolutePoint location="2313,613" />
+      <AbsolutePoint location="1539,613" />
+      <AbsolutePoint location="1539,974" />
+      <AbsolutePoint location="1452,974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/LoginAction.do,index,/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="420,98" />
+      <AbsolutePoint location="485,98" />
+      <AbsolutePoint location="485,631" />
+      <AbsolutePoint location="2289,631" />
+      <AbsolutePoint location="2289,474" />
+      <AbsolutePoint location="2450,474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ProjectAction.do,data_checker_13,/checker/data_checker_13.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,286" />
+      <AbsolutePoint location="-67,286" />
+      <AbsolutePoint location="-67,1235" />
+      <AbsolutePoint location="1054,1235" />
+      <AbsolutePoint location="1054,998" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_04,/checker/data_checker_04.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2656,92" />
+      <AbsolutePoint location="2656,1274" />
+      <AbsolutePoint location="154,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/POAction.do,data_checker_06_edit,/checker/data_checker_06_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1468,334" />
+      <AbsolutePoint location="1468,349" />
+      <AbsolutePoint location="2793,349" />
+      <AbsolutePoint location="2793,1573" />
+      <AbsolutePoint location="769,1573" />
+      <AbsolutePoint location="769,1398" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/POAction.do,nonLaborCost_add,/checker/nonLaborCost_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1429,334" />
+      <AbsolutePoint location="1429,401" />
+      <AbsolutePoint location="2769,401" />
+      <AbsolutePoint location="2769,1319" />
+      <AbsolutePoint location="1957,1319" />
+      <AbsolutePoint location="1957,1350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/POAction.do,po_add,/checker/po_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1392,334" />
+      <AbsolutePoint location="1392,420" />
+      <AbsolutePoint location="604,420" />
+      <AbsolutePoint location="604,1374" />
+      <AbsolutePoint location="504,1374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/POAction.do,po_edit,/checker/po_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1420,334" />
+      <AbsolutePoint location="1420,429" />
+      <AbsolutePoint location="2143,429" />
+      <AbsolutePoint location="2143,1219" />
+      <AbsolutePoint location="1630,1219" />
+      <AbsolutePoint location="1630,1350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_03_details2,/checker/data_checker_03_details2.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2656,92" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,new_leave_edit_submit,/checker/new_leave_edit_submit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2620,134" />
+      <AbsolutePoint location="2620,160" />
+      <AbsolutePoint location="1847,160" />
+      <AbsolutePoint location="1847,1174" />
+      <AbsolutePoint location="1794,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_03_details,/checker/data_checker_03_details.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2604,134" />
+      <AbsolutePoint location="2604,144" />
+      <AbsolutePoint location="595,144" />
+      <AbsolutePoint location="595,1035" />
+      <AbsolutePoint location="2578,1035" />
+      <AbsolutePoint location="2578,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/POAction.do,po_assignment,/checker/po_assignment.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,292" />
+      <AbsolutePoint location="1163,292" />
+      <AbsolutePoint location="1163,735" />
+      <AbsolutePoint location="41,735" />
+      <AbsolutePoint location="41,1458" />
+      <AbsolutePoint location="50,1458" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/LoginAction.do,Oops,/system/oops.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="420,110" />
+      <AbsolutePoint location="447,110" />
+      <AbsolutePoint location="447,373" />
+      <AbsolutePoint location="1193,373" />
+      <AbsolutePoint location="1193,692" />
+      <AbsolutePoint location="1086,692" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/InvoiceAction.do,Invoice_List,/checker/Invoice_List.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2109,334" />
+      <AbsolutePoint location="2109,945" />
+      <AbsolutePoint location="2415,945" />
+      <AbsolutePoint location="2415,1407" />
+      <AbsolutePoint location="1945,1407" />
+      <AbsolutePoint location="1945,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_01,/checker/data_checker_01.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2686,50" />
+      <AbsolutePoint location="2686,-85" />
+      <AbsolutePoint location="35,-85" />
+      <AbsolutePoint location="35,674" />
+      <AbsolutePoint location="50,674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ReportAction.do,data_checker_05_check,/checker/data_checker_05_check.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1032,316" />
+      <AbsolutePoint location="1187,316" />
+      <AbsolutePoint location="1187,591" />
+      <AbsolutePoint location="347,591" />
+      <AbsolutePoint location="347,1374" />
+      <AbsolutePoint location="294,1374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/AdministratorAction.do,administrator_08,/system/administrator_08.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2059,134" />
+      <AbsolutePoint location="2059,154" />
+      <AbsolutePoint location="2415,154" />
+      <AbsolutePoint location="2415,774" />
+      <AbsolutePoint location="2358,774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ProjectAction.do,data_checker_03_edit_submit,/checker/data_checker_03_edit_submit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,292" />
+      <AbsolutePoint location="-61,292" />
+      <AbsolutePoint location="-61,1137" />
+      <AbsolutePoint location="1690,1137" />
+      <AbsolutePoint location="1690,998" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/SysUserAction.do,data_checker_04_newUser,/checker/data_checker_04_newUser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,70" />
+      <AbsolutePoint location="1131,70" />
+      <AbsolutePoint location="1131,674" />
+      <AbsolutePoint location="1250,674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_03_details_submit,/checker/data_checker_03_details_submit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2656,92" />
+      <AbsolutePoint location="2656,1274" />
+      <AbsolutePoint location="799,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_03_sub,/checker/data_checker_03_sub.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,54" />
+      <AbsolutePoint location="2283,54" />
+      <AbsolutePoint location="2283,637" />
+      <AbsolutePoint location="933,637" />
+      <AbsolutePoint location="933,1174" />
+      <AbsolutePoint location="1250,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_03_edit2_submit,/checker/data_checker_03_edit2_submit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,92" />
+      <AbsolutePoint location="2373,92" />
+      <AbsolutePoint location="2373,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/SysUserAction.do,register,/system/register.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1632,102" />
+      <AbsolutePoint location="1779,102" />
+      <AbsolutePoint location="1779,774" />
+      <AbsolutePoint location="1850,774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/SysUserAction.do,administrator_03,/system/administrator_03.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,122" />
+      <AbsolutePoint location="1227,122" />
+      <AbsolutePoint location="1227,565" />
+      <AbsolutePoint location="1941,565" />
+      <AbsolutePoint location="1941,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ReportAction.do,data_checker_05,/checker/data_checker_05.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1032,306" />
+      <AbsolutePoint location="1149,306" />
+      <AbsolutePoint location="1149,748" />
+      <AbsolutePoint location="2997,748" />
+      <AbsolutePoint location="2997,1274" />
+      <AbsolutePoint location="2658,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/POAction.do,data_checker_06_edit_case,/checker/data_checker_06_edit_case.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1608,292" />
+      <AbsolutePoint location="1761,292" />
+      <AbsolutePoint location="1761,813" />
+      <AbsolutePoint location="1191,813" />
+      <AbsolutePoint location="1191,1350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_04_edit_Pro,/checker/data_checker_04_edit_Pro.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,70" />
+      <AbsolutePoint location="2443,70" />
+      <AbsolutePoint location="2443,1074" />
+      <AbsolutePoint location="2112,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/AdministratorAction.do,administrator_03,/system/administrator_03.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2268,70" />
+      <AbsolutePoint location="2395,70" />
+      <AbsolutePoint location="2395,581" />
+      <AbsolutePoint location="1963,581" />
+      <AbsolutePoint location="1963,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/AdministratorAction.do,administrator_02,/system/administrator_02.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2268,92" />
+      <AbsolutePoint location="2271,92" />
+      <AbsolutePoint location="2271,591" />
+      <AbsolutePoint location="1515,591" />
+      <AbsolutePoint location="1515,874" />
+      <AbsolutePoint location="1458,874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/SysUserAction.do,data_checker_04_newUser_submit,/checker/data_checker_04_newUser_submit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,60" />
+      <AbsolutePoint location="1099,60" />
+      <AbsolutePoint location="1099,750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_03_submit_all,/checker/data_checker_03_submit_all.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2686,134" />
+      <AbsolutePoint location="2686,231" />
+      <AbsolutePoint location="1837,231" />
+      <AbsolutePoint location="1837,1074" />
+      <AbsolutePoint location="1524,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ProjectAction.do,data_checker_03,/checker/data_checker_03.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="438,302" />
+      <AbsolutePoint location="513,302" />
+      <AbsolutePoint location="513,819" />
+      <AbsolutePoint location="301,819" />
+      <AbsolutePoint location="301,1074" />
+      <AbsolutePoint location="350,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,new_project_edit_submit,/checker/new_project_edit_submit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2746,50" />
+      <AbsolutePoint location="2746,5" />
+      <AbsolutePoint location="2997,5" />
+      <AbsolutePoint location="2997,713" />
+      <AbsolutePoint location="903,713" />
+      <AbsolutePoint location="903,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_03_leave,/checker/data_checker_03_leave.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2862,62" />
+      <AbsolutePoint location="2967,62" />
+      <AbsolutePoint location="2967,1113" />
+      <AbsolutePoint location="2272,1113" />
+      <AbsolutePoint location="2272,998" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/AdministratorAction.do,administrator_02_01,/system/administrator_02_01.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2259,134" />
+      <AbsolutePoint location="2259,371" />
+      <AbsolutePoint location="2755,371" />
+      <AbsolutePoint location="2755,935" />
+      <AbsolutePoint location="163,935" />
+      <AbsolutePoint location="163,898" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="timeout;6,null,/relogon.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2268,500" />
+      <AbsolutePoint location="2830,500" />
+      <AbsolutePoint location="2830,1474" />
+      <AbsolutePoint location="2562,1474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/AdministratorAction.do,administrator_02_03,/system/administrator_02_03.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2245,134" />
+      <AbsolutePoint location="2245,429" />
+      <AbsolutePoint location="2731,429" />
+      <AbsolutePoint location="2731,774" />
+      <AbsolutePoint location="2676,774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/SysUserAction.do,administrator_03_edit_submit,/system/administrator_03_edit_submit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1441,50" />
+      <AbsolutePoint location="1441,5" />
+      <AbsolutePoint location="549,5" />
+      <AbsolutePoint location="549,774" />
+      <AbsolutePoint location="330,774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/POAction.do,po_list,/checker/po_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1406,334" />
+      <AbsolutePoint location="1406,443" />
+      <AbsolutePoint location="2815,443" />
+      <AbsolutePoint location="2815,1374" />
+      <AbsolutePoint location="2610,1374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_03_submit,/checker/data_checker_03_submit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2841,134" />
+      <AbsolutePoint location="2841,813" />
+      <AbsolutePoint location="1975,813" />
+      <AbsolutePoint location="1975,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_03_edit2,/checker/data_checker_03_edit2.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2626,50" />
+      <AbsolutePoint location="2626,-25" />
+      <AbsolutePoint location="-25,-25" />
+      <AbsolutePoint location="-25,974" />
+      <AbsolutePoint location="50,974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/LoginAction.do,administrator_01,/system/administrator_01.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="235,134" />
+      <AbsolutePoint location="235,160" />
+      <AbsolutePoint location="1089,160" />
+      <AbsolutePoint location="1089,577" />
+      <AbsolutePoint location="754,577" />
+      <AbsolutePoint location="754,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_04_edit_Leave,/checker/data_checker_04_edit_Leave.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,122" />
+      <AbsolutePoint location="2409,122" />
+      <AbsolutePoint location="2409,571" />
+      <AbsolutePoint location="921,571" />
+      <AbsolutePoint location="921,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_11,/checker/data_checker_11.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2656,92" />
+      <AbsolutePoint location="2656,1274" />
+      <AbsolutePoint location="454,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/POAction.do,data_checker_13_edit,/checker/data_checker_13_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1382,334" />
+      <AbsolutePoint location="1382,349" />
+      <AbsolutePoint location="585,349" />
+      <AbsolutePoint location="585,950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,new_project_edit,/checker/new_project_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2716,50" />
+      <AbsolutePoint location="2716,-85" />
+      <AbsolutePoint location="2907,-85" />
+      <AbsolutePoint location="2907,974" />
+      <AbsolutePoint location="2664,974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/LoginAction.do,developer_01,/developer/developer_01.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="420,82" />
+      <AbsolutePoint location="639,82" />
+      <AbsolutePoint location="639,1525" />
+      <AbsolutePoint location="2825,1525" />
+      <AbsolutePoint location="2825,574" />
+      <AbsolutePoint location="2652,574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/AdministratorAction.do,administrator_email,/system/administrator_email.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2059,92" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/LogoutAction.do,index,/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="838,92" />
+      <AbsolutePoint location="2500,474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ProjectAction.do,data_checker_13_edit,/checker/data_checker_13_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="438,292" />
+      <AbsolutePoint location="579,292" />
+      <AbsolutePoint location="579,950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_03,/checker/data_checker_03.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2656,50" />
+      <AbsolutePoint location="2656,-55" />
+      <AbsolutePoint location="-85,-55" />
+      <AbsolutePoint location="-85,1013" />
+      <AbsolutePoint location="454,1013" />
+      <AbsolutePoint location="454,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/POAction.do,nonLaborCost_add_submit,/checker/nonLaborCost_add_submit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,306" />
+      <AbsolutePoint location="1205,306" />
+      <AbsolutePoint location="1205,619" />
+      <AbsolutePoint location="337,619" />
+      <AbsolutePoint location="337,1474" />
+      <AbsolutePoint location="350,1474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/AdministratorAction.do,administrator_01,/system/administrator_01.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,102" />
+      <AbsolutePoint location="1821,102" />
+      <AbsolutePoint location="1821,583" />
+      <AbsolutePoint location="760,583" />
+      <AbsolutePoint location="760,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/SysUserAction.do,register_submit,/system/register_submit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1615,134" />
+      <AbsolutePoint location="1615,385" />
+      <AbsolutePoint location="2335,385" />
+      <AbsolutePoint location="2335,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_13,/checker/data_checker_13.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2862,122" />
+      <AbsolutePoint location="2877,122" />
+      <AbsolutePoint location="2877,1013" />
+      <AbsolutePoint location="1072,1013" />
+      <AbsolutePoint location="1072,998" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/InvoiceAction.do,Invoice_Eidt,/checker/Invoice_Edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,270" />
+      <AbsolutePoint location="1639,270" />
+      <AbsolutePoint location="1639,-172" />
+      <AbsolutePoint location="3075,-172" />
+      <AbsolutePoint location="3075,1651" />
+      <AbsolutePoint location="1645,1651" />
+      <AbsolutePoint location="1645,1498" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/InvoiceAction.do,Invoice_Eidt_submit,/checker/Invoice_Edit_submit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2044,334" />
+      <AbsolutePoint location="2044,525" />
+      <AbsolutePoint location="3159,525" />
+      <AbsolutePoint location="3159,1735" />
+      <AbsolutePoint location="1366,1735" />
+      <AbsolutePoint location="1366,1498" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/SysUserAction.do,administrator_03_edit,/system/administrator_03_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1443,134" />
+      <AbsolutePoint location="1443,231" />
+      <AbsolutePoint location="499,231" />
+      <AbsolutePoint location="499,752" />
+      <AbsolutePoint location="650,752" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/AdministratorAction.do,administrator_02_02,/system/administrator_02_02.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,92" />
+      <AbsolutePoint location="1785,92" />
+      <AbsolutePoint location="1785,845" />
+      <AbsolutePoint location="1063,845" />
+      <AbsolutePoint location="1063,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/POAction.do,nonlaborCost_list,/checker/nonlaborCost_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1446,334" />
+      <AbsolutePoint location="1446,371" />
+      <AbsolutePoint location="2119,371" />
+      <AbsolutePoint location="2119,1135" />
+      <AbsolutePoint location="2264,1135" />
+      <AbsolutePoint location="2264,1350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ProjectAction.do,data_checker_03_edit,/checker/data_checker_03_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,298" />
+      <AbsolutePoint location="-49,298" />
+      <AbsolutePoint location="-49,643" />
+      <AbsolutePoint location="1821,643" />
+      <AbsolutePoint location="1821,874" />
+      <AbsolutePoint location="1788,874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/SysUserAction.do,success,/system/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1429,134" />
+      <AbsolutePoint location="1429,171" />
+      <AbsolutePoint location="475,171" />
+      <AbsolutePoint location="475,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_03_deleteproject,/checker/data_checker_03_deleteproject.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2610,134" />
+      <AbsolutePoint location="2610,154" />
+      <AbsolutePoint location="2421,154" />
+      <AbsolutePoint location="2421,391" />
+      <AbsolutePoint location="2721,391" />
+      <AbsolutePoint location="2721,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_13_edit,/checker/data_checker_13_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2656,134" />
+      <AbsolutePoint location="2656,209" />
+      <AbsolutePoint location="621,209" />
+      <AbsolutePoint location="621,974" />
+      <AbsolutePoint location="588,974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/AdministratorAction.do,administrator_02_04,/system/administrator_02_04.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2053,134" />
+      <AbsolutePoint location="2053,154" />
+      <AbsolutePoint location="567,154" />
+      <AbsolutePoint location="567,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/POAction.do,data_checker_06,/checker/data_checker_06.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1429,250" />
+      <AbsolutePoint location="1429,185" />
+      <AbsolutePoint location="527,185" />
+      <AbsolutePoint location="527,835" />
+      <AbsolutePoint location="1239,835" />
+      <AbsolutePoint location="1239,1474" />
+      <AbsolutePoint location="1158,1474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/LoginAction.do,system.login,/system/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,92" />
+      <AbsolutePoint location="-160,92" />
+      <AbsolutePoint location="-160,503" />
+      <AbsolutePoint location="417,503" />
+      <AbsolutePoint location="417,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ProjectAction.do,data_checker_04_edit_uploaded,/checker/data_checker_04_edit_uploaded.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="244,334" />
+      <AbsolutePoint location="244,443" />
+      <AbsolutePoint location="1075,443" />
+      <AbsolutePoint location="1075,557" />
+      <AbsolutePoint location="943,557" />
+      <AbsolutePoint location="943,1205" />
+      <AbsolutePoint location="1396,1205" />
+      <AbsolutePoint location="1396,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/LoginAction.do,data_checker_01,/checker/data_checker_01.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="420,104" />
+      <AbsolutePoint location="459,104" />
+      <AbsolutePoint location="459,401" />
+      <AbsolutePoint location="1109,401" />
+      <AbsolutePoint location="1109,605" />
+      <AbsolutePoint location="154,605" />
+      <AbsolutePoint location="154,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/SysUserAction.do,changePWD,/system/changePWD.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1632,108" />
+      <AbsolutePoint location="1673,108" />
+      <AbsolutePoint location="1673,415" />
+      <AbsolutePoint location="2079,415" />
+      <AbsolutePoint location="2079,835" />
+      <AbsolutePoint location="1633,835" />
+      <AbsolutePoint location="1633,798" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_03_edit_submit,/checker/data_checker_03_edit_submit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2596,50" />
+      <AbsolutePoint location="2596,5" />
+      <AbsolutePoint location="1803,5" />
+      <AbsolutePoint location="1803,950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_04_newGroup,/checker/data_checker_04_newGroup.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2704,134" />
+      <AbsolutePoint location="2704,241" />
+      <AbsolutePoint location="-55,241" />
+      <AbsolutePoint location="-55,1174" />
+      <AbsolutePoint location="50,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/SysUserAction.do,data_checker_04_edit_User,/checker/data_checker_04_edit_User.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,92" />
+      <AbsolutePoint location="1177,92" />
+      <AbsolutePoint location="1177,735" />
+      <AbsolutePoint location="2584,735" />
+      <AbsolutePoint location="2584,698" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DataCheckerAction.do,data_checker_04_updateGroup,/checker/data_checker_04_updateGroup.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2656,92" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

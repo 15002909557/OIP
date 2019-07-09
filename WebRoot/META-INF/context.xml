@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/WebRoot">
+  <ResourceLink global="jdbc/mysql2" name="jdbc/mysql2" type="javax.sql.DataSource"/>
+</Context>

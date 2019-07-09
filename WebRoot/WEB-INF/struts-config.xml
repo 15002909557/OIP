@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+	<data-sources />
+	<form-beans>
+		<form-bean name="LoginForm"
+			type="com.beyondsoft.expensesystem.form.system.LoginForm" />
+		<form-bean name="SysUserForm"
+			type="com.beyondsoft.expensesystem.form.system.SysUserForm" />
+		<form-bean name="AdministratorForm"
+			type="com.beyondsoft.expensesystem.form.system.AdministratorForm" />
+		<form-bean name="DataCheckerForm"
+			type="com.beyondsoft.expensesystem.form.checker.DataCheckerForm" />
+		<form-bean name="ProjectForm"
+			type="com.beyondsoft.expensesystem.form.checker.ProjectForm" />
+		<form-bean name="ReportForm"
+			type="com.beyondsoft.expensesystem.form.checker.ReportForm" />
+		<form-bean name="POForm"
+			type="com.beyondsoft.expensesystem.form.checker.POForm" />
+		<form-bean name="InvoiceForm" 
+		    type="com.beyondsoft.expensesystem.form.checker.InvoiceForm"></form-bean>	
+
+	</form-beans>
+
+	<global-forwards>
+		<forward name="failed" contextRelative="true" path="/error.jsp" />
+		<forward name="timeout" contextRelative="true" path="/relogon.jsp" />
+	</global-forwards>
+
+	<action-mappings>
+
+		<action path="/LoginAction"
+			type="com.beyondsoft.expensesystem.action.system.LoginAction" name="LoginForm"
+			scope="request" parameter="operate" validate="false">
+			<forward name="system.login" path="/system/login.jsp" />
+			<forward name="index" path="/index.jsp" />
+			<forward name="Oops" path="/system/oops.jsp" />
+			<forward name="developer_01" path="/developer/developer_01.jsp" />
+			<forward name="administrator_01" path="/system/administrator_01.jsp" />
+			<forward name="data_checker_01" path="/checker/data_checker_01.jsp" />
+		</action>
+
+		<action path="/LogoutAction"
+			type="com.beyondsoft.expensesystem.action.system.LogoutAction" name="LoginForm"
+			scope="request" parameter="operate" validate="false">
+			<forward name="success" path="/system/login.jsp" />
+			<forward name="index" path="/index.jsp" />
+		</action>
+
+		<action path="/SysUserAction"
+			type="com.beyondsoft.expensesystem.action.system.SysUserAction" name="SysUserForm"
+			scope="request" parameter="operate" validate="false">
+			<forward name="register" path="/system/register.jsp" />
+			<forward name="register_submit" path="/system/register_submit.jsp" />
+			<forward name="success" path="/system/login.jsp" />
+			<forward name="administrator_03" path="/system/administrator_03.jsp" />
+			<forward name="administrator_03_edit" path="/system/administrator_03_edit.jsp" />
+			<forward name="administrator_03_edit_submit" path="/system/administrator_03_edit_submit.jsp" />
+			<forward name="data_checker_04_edit_User" path="/checker/data_checker_04_edit_User.jsp" />
+			<forward name="data_checker_04_newUser" path="/checker/data_checker_04_newUser.jsp" />
+			<forward name="changePWD" path="/system/changePWD.jsp" />
+			<forward name="data_checker_04_newUser_submit" path="/checker/data_checker_04_newUser_submit.jsp" />
+		</action>
+
+		<action path="/AdministratorAction"
+			type="com.beyondsoft.expensesystem.action.system.AdministratorAction"
+			name="AdministratorForm" scope="request" parameter="operate"
+			validate="false">
+			<forward name="administrator_01" path="/system/administrator_01.jsp" />
+			<forward name="administrator_02" path="/system/administrator_02.jsp" />
+			<forward name="administrator_02_01" path="/system/administrator_02_01.jsp" />
+			<forward name="administrator_02_02" path="/system/administrator_02_02.jsp" />
+			<forward name="administrator_02_03" path="/system/administrator_02_03.jsp" />
+			<forward name="administrator_02_04" path="/system/administrator_02_04.jsp" />
+			<forward name="administrator_03" path="/system/administrator_03.jsp" />
+			<forward name="administrator_08" path="/system/administrator_08.jsp" />
+			<forward name="administrator_04" path="/system/administrator_04.jsp" />
+			<!-- hanxiaoyu01 2012-12-10 -->
+			<forward name="administrator_email" path="/system/administrator_email.jsp"/>
+		</action>
+
+		<action path="/DataCheckerAction"
+			type="com.beyondsoft.expensesystem.action.checker.DataCheckerAction"
+			name="DataCheckerForm" scope="request" parameter="operate" validate="false">
+			<forward name="data_checker_01" path="/checker/data_checker_01.jsp" />
+			<forward name="data_checker_02" path="/checker/data_checker_02.jsp" />
+			<forward name="data_checker_03" path="/checker/data_checker_03.jsp" />
+			<forward name="data_checker_03_submit" path="/checker/data_checker_03_submit.jsp" />
+			<forward name="data_checker_04" path="/checker/data_checker_04.jsp" />
+			<forward name="data_checker_03_edit" path="/checker/data_checker_03_edit.jsp" />
+			<forward name="data_checker_03_edit_submit" path="/checker/data_checker_03_edit_submit.jsp" />
+			<forward name="data_checker_03_edit2" path="/checker/data_checker_03_edit2.jsp" />
+			<forward name="data_checker_03_edit2_submit" path="/checker/data_checker_03_edit2_submit.jsp" />
+			<forward name="new_project_edit" path="/checker/new_project_edit.jsp" />
+			<forward name="new_project_edit_submit" path="/checker/new_project_edit_submit.jsp" />
+			<forward name="data_checker_11" path="/checker/data_checker_11.jsp" />
+			<forward name="data_checker_01" path="/checker/data_checker_01.jsp" />
+			<forward name="data_checker_03_submit_all" path="/checker/data_checker_03_submit_all.jsp" />
+			<forward name="data_checker_04_edit" path="/checker/data_checker_04_edit.jsp" />
+			<forward name="data_checker_04_newGroup" path="/checker/data_checker_04_newGroup.jsp" />
+			<forward name="data_checker_04_edit_Pro" path="/checker/data_checker_04_edit_Pro.jsp" />
+			<forward name="data_checker_13" path="/checker/data_checker_13.jsp" />
+			<forward name="data_checker_13_edit" path="/checker/data_checker_13_edit.jsp" />
+			<forward name="new_leave_edit" path="/checker/new_leave_edit.jsp" />
+			<forward name="new_leave_edit_submit" path="/checker/new_leave_edit_submit.jsp" />
+			<forward name="data_checker_03_details_submit" path="/checker/data_checker_03_details_submit.jsp" />
+			<forward name="data_checker_03_details" path="/checker/data_checker_03_details.jsp" />
+			<forward name="data_checker_03_deleteproject" path="/checker/data_checker_03_deleteproject.jsp" />
+			<forward name="data_checker_04_edit_Leave" path="/checker/data_checker_04_edit_Leave.jsp" />
+			<forward name="data_checker_03_leave" path="/checker/data_checker_03_leave.jsp" />
+			<forward name="data_checker_03_leave_submit" path="/checker/data_checker_03_leave_submit.jsp" />
+			<forward name="data_checker_03_sub" path="/checker/data_checker_03_sub.jsp" />
+			<forward name="data_checker_04_updateGroup" path="/checker/data_checker_04_updateGroup.jsp"></forward>
+			<forward name="data_checker_03_details2" path="/checker/data_checker_03_details2.jsp" />
+			
+		</action>
+
+		<action path="/ProjectAction"
+			type="com.beyondsoft.expensesystem.action.checker.ProjectAction"
+			name="ProjectForm" scope="request" parameter="operate" validate="false">
+			<forward name="data_checker_03" path="/checker/data_checker_03.jsp" />
+			<forward name="data_checker_03_edit" path="/checker/data_checker_03_edit.jsp" />
+			<forward name="data_checker_03_edit_submit" path="/checker/data_checker_03_edit_submit.jsp" />
+			<forward name="data_checker_04_edit_uploaded" path="/checker/data_checker_04_edit_uploaded.jsp" />
+			<forward name="data_checker_04_edit_uploaded_userlist" path="/checker/data_checker_04_edit_uploaded_userlist.jsp" />
+			<forward name="data_checker_13" path="/checker/data_checker_13.jsp" />
+			<forward name="data_checker_13_edit" path="/checker/data_checker_13_edit.jsp" />
+			
+		</action>
+
+		<action path="/ReportAction"
+			type="com.beyondsoft.expensesystem.action.checker.ReportAction" name="ReportForm"
+			scope="request" parameter="operate" validate="false">
+			<forward name="data_checker_05" path="/checker/data_checker_05.jsp" />
+			<forward name="data_checker_05_check" path="/checker/data_checker_05_check.jsp" />
+		</action>
+		
+		<action path="/POAction"
+			type="com.beyondsoft.expensesystem.action.checker.POAction" name="POForm"
+			scope="request" parameter="operate" validate="false">
+			<forward name="data_checker_06" path="/checker/data_checker_06.jsp" />
+			<forward name="data_checker_06_edit" path="/checker/data_checker_06_edit.jsp" />
+			<forward name="data_checker_06_edit_case" path="/checker/data_checker_06_edit_case.jsp" />
+			<forward name="data_checker_13_edit" path="/checker/data_checker_13_edit.jsp" />
+			<forward name="po_assignment" path="/checker/po_assignment.jsp"></forward>
+			<forward name="po_list" path="/checker/po_list.jsp"></forward>
+			<forward name="po_add" path="/checker/po_add.jsp"></forward>
+			<forward name="po_edit" path="/checker/po_edit.jsp"></forward>
+			<forward name="nonlaborCost_list" path="/checker/nonlaborCost_list.jsp"></forward>
+			<forward name="nonLaborCost_add" path="/checker/nonLaborCost_add.jsp"></forward>
+			<forward name="nonLaborCost_add_submit" path="/checker/nonLaborCost_add_submit.jsp"></forward>
+		</action>
+		
+		<action path="/InvoiceAction"
+			type="com.beyondsoft.expensesystem.action.checker.InvoiceAction" name="InvoiceForm"
+			scope="request" parameter="operate" validate="false">
+			<forward name="Invoice_List" path="/checker/Invoice_List.jsp"></forward>
+			<forward name="Invoice_Eidt" path="/checker/Invoice_Edit.jsp"></forward>
+			<forward name="Invoice_Eidt_submit" path="/checker/Invoice_Edit_submit.jsp"></forward>
+			<forward name="monthlyproject_List" path="/checker/monthlyproject_List.jsp"></forward>
+			<forward name="monthlyproject_Eidt" path="/checker/monthlyproject_Edit.jsp"></forward>
+			<forward name="monthlyproject_Eidt_submit" path="/checker/monthlyproject_Edit_submit.jsp"></forward>
+		</action>
+
+	</action-mappings>
+	<message-resources parameter="ApplicationResources" />
+</struts-config>
+
